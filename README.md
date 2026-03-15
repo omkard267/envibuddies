@@ -10,15 +10,6 @@ A comprehensive NGO management platform that empowers non-governmental organizat
   - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omkardhumal-pathane/)
   - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/OmkarDhumal)
 
-- **OMKAR DHUMAL** - Full Stack Developer
-  - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omkardhumal-thorat-546549258/)
-  - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/OmkarDhumal)
-
-## 🌐 Live Demo
-
-Visit our live application at: [https://envibuddies.me](https://envibuddies.me)
-
-**Note:** As the backend is deployed on Render, the first login may take about 30 to 60 seconds. This is because Render's free tier spins down services after 15 minutes of inactivity, and the first request after spin-down needs to wake up the service.
 
 ## 🧪 Test Accounts
 
@@ -147,13 +138,4 @@ You can create a new account or login using any of these dummy accounts.
 - **Session Management** - Multi-device session tracking and management
 - **Account Lockout** - Protection against brute force attacks
 
-## 📄 License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
-  <p>Made with ❤️ for social impact</p>
-  <p>Join us in empowering NGOs to create positive change across all causes!</p>
-</div>
