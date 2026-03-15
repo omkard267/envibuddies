@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Most Dedicated Organizer Certificate</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .certificate-container {
+      width: 900px;
+      height: 650px;
+      background: #fff;
+      border: 8px solid #7c3aed;
+      border-radius: 15px;
+      margin: 0 auto;
+      box-shadow: 0 0 20px #aaa;
+      position: relative;
+      padding: 25px 40px;
+      box-sizing: border-box;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    .logo {
+      height: 60px;
+    }
+    .title {
+      font-size: 2em;
+      color: #7c3aed;
+      font-weight: bold;
+      text-align: center;
+      margin: 20px 0 8px 0;
+      letter-spacing: 1px;
+    }
+    .subtitle {
+      font-size: 1em;
+      color: #222;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .content {
+      font-size: 1.1em;
+      color: #333;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .recipient {
+      font-size: 1.6em;
+      color: #7c3aed;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .award-title {
+      font-size: 1.4em;
+      color: #7c3aed;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .event-details {
+      font-size: 0.95em;
+      color: #444;
+      margin: 15px 0 20px 0;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      position: absolute;
+      bottom: 25px;
+      left: 40px;
+      right: 40px;
+    }
+    .signature {
+      text-align: center;
+    }
+    .signature img {
+      height: 50px;
+      margin-bottom: 3px;
+    }
+    .cert-id {
+      font-size: 0.85em;
+      color: #888;
+      margin-top: 8px;
+      text-align: right;
+    }
+    .qr {
+      height: 65px;
+    }
+  </style>
+</head>
+<body>
+  <div class="certificate-container">
+    <div class="header">
+      <img class="logo" src="{{organizationLogo}}" alt="Logo">
+      <div style="font-size:1em; color:#7c3aed; font-weight:bold;">Envi Buddies</div>
+    </div>
+    <div class="title">Certificate of Excellence</div>
+    <div class="subtitle">This is to certify that</div>
+    <div class="recipient">{{participantName}}</div>
+    <div class="award-title">has been awarded</div>
+    <div class="content">
+      <b>{{awardTitle}}</b><br>
+      for outstanding dedication and commitment in organizing the event<br>
+      <b>{{eventName}}</b><br>
+      held on <b>{{eventDate}}</b>{{eventLocationAt}}.<br>
+      <span style="font-size:0.9em; color:#555;">Your unwavering commitment to excellence sets a remarkable example.</span>
+    </div>
+    <div class="event-details">
+      <b>Issued by:</b> Envi Buddies Event Team<br>
+      <b>Issue Date:</b> {{issueDate}}
+    </div>
+    <div class="footer">
+      <div class="signature">
+        <img src="{{signatureImage}}" alt="Signature"><br>
+        <span style="font-size:0.9em; color:#222;">Authorized Signatory</span>
+      </div>
+      <div>
+        <img class="qr" src="{{qrCode}}" alt="QR Code"><br>
+        <div class="cert-id">Certificate ID: {{certificateId}}</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 
